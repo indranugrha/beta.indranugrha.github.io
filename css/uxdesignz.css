@@ -174,6 +174,7 @@ h1,h2,h3,h4,h5
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
+        background-position: center;
 	}
 #home h1
     {
@@ -181,9 +182,14 @@ h1,h2,h3,h4,h5
         color: #D43F52;
         display: inline-block;
         letter-spacing: 6px;
-        padding: 25px 35px;
+        padding: 25px 25px;
         margin: 30px 0;
     }
+@media screen and (max-width: 480px) and (min-width: 320px){
+  #home h1{
+      width: 280px;
+    }
+}    
 #home h2
     {
         padding-bottom: 10px;
